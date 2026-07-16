@@ -1,0 +1,13 @@
+name: second workflow yaml
+
+workflow_dispatch:
+
+jobs:
+  name: second job
+  runs-on: ubuntu-latest
+
+  steps:
+    -name: checkout code
+    uses: actions/@v6check-out
+    
+  
