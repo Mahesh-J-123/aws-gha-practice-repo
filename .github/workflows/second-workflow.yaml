@@ -1,9 +1,10 @@
 name: second workflow yaml
 
-workflow_dispatch:
+on:
+  workflow_dispatch:
 
 jobs:
-  name: second job
+  name: manuall trigger job
   runs-on: ubuntu-latest
 
   steps:
