@@ -9,6 +9,6 @@ jobs:
 
   steps:
     -name: checkout code
-    uses: actions/@v6check-out
+     run: echo "this is my second job"
     
   
